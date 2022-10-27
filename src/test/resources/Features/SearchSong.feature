@@ -1,6 +1,6 @@
 Feature: Search song Feature
 
-  Scenario Outline: Search song top result with song title '<songTitle>'
+  Scenario Outline: Search song and see top result with song title '<songTitle>'
     Given open browser
     And open youtube music
     Then user in youtube music page
